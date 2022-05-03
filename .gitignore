@@ -1,0 +1,10 @@
+*.swp
+*.log
+*.bbl
+*.blg
+*.aux
+*.out
+*.DS_Store
+*~
+*.pyc
+*__pycache__

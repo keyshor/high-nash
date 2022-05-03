@@ -22,7 +22,7 @@ class FiniteMDP(gym.Env):
         self.rewards = rewards
         self.max_steps = max_steps
         self.n = len(num_actions)
-        
+
         # Define action space
         spaces = [gym.spaces.Discrete(na) for na in num_actions]
         self.action_space = gym.spaces.Tuple(spaces)

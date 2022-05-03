@@ -4,6 +4,3 @@ matplotlib
 opencv-python
 nashpy
 scipy
-torch
-torchvision
-tensorflow==1.15.0
