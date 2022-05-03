@@ -1,5 +1,4 @@
 from spectrl.envs.sortworld import SortEnv
-# from spectrl.multi_agent.finite_state import HyperParams, MultiAbstractReachability
 from spectrl.rl.qrmlearning import MultiQRMAgent
 from spectrl.multi_agent.ne_verification import test_nash_solution
 from spectrl.main.spec_compiler import ev, alw, seq

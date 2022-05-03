@@ -1,5 +1,4 @@
 from spectrl.envs.intersection import IntersectionEnv
-# from spectrl.multi_agent.finite_state import HyperParams, MultiAbstractReachability
 from spectrl.rl.qrmlearning import MultiQRMAgent
 from spectrl.main.spec_compiler import ev, alw
 from spectrl.multi_agent.ne_verification import test_nash_solution
